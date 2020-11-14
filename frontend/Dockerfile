@@ -10,6 +10,17 @@ RUN apk update && \
     npm update npm && \
 # frontend
     npm install -g yarn && \
+    #プロジェクト名は全部小文字の必要あり。
+    npx create-react-app wtg-frontend --template typescript && \
+    cd wtg-frontend && \
+    pwd && \
+    yarn add @material-ui/core \
+    react-router \
+    react-router-dom \
+    axios \
+    auth0-js \
+    @material-ui/icons \
+    react-swipeable-views   
 #    mkdir frontend && \
 #    cd ./frontend && \
 #    pwd && \
@@ -22,8 +33,6 @@ RUN apk update && \
 #    @material-ui/icons \
 #    react-swipeable-views && \
     #react-hook-form && \
-    #プロジェクト名は全部小文字の必要あり。
-    npx create-react-app wtg-frontend --template typescript
 #    cd /App/frontend/diveworks && \
 #    git clone https://github.com/chokunari/DiveWorksFront.git
 # ENTRYPOINT [ "sh","/App/frontend/diveworks/DiveWorksFront/start_front.sh" ]
