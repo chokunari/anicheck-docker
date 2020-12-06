@@ -11,7 +11,7 @@ RUN apk update && \
 # frontend
     npm install -g yarn && \
     #プロジェクト名は全部小文字の必要あり。
-    npx create-react-app wtg-frontend --template typescript && \
+    npx create-react-app wtg-frontend && \
     cd wtg-frontend && \
     pwd && \
     yarn add @material-ui/core \
