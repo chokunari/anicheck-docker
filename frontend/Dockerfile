@@ -20,8 +20,9 @@ RUN apk update && \
     axios \
     auth0-js \
     @material-ui/icons \
-    react-swipeable-views  \
-    google-map-react
+    react-swipeable-views \
+    google-map-react \
+    dotenv
 #    mkdir frontend && \
 #    cd ./frontend && \
 #    pwd && \
