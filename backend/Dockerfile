@@ -23,6 +23,7 @@ RUN apk add --no-cache nodejs \
     morgan \
     express-jwt \
     dotenv \
+    request \
     jwks-rsa && \
     #express-generatorはグローバルにインストールする必要あり。
     npm install -g express-generator
