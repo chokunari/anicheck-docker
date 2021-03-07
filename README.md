@@ -1,2 +1,2 @@
 # wtg-docker
-where to go?webappのDockerfile及びdocker-compose.yaml
+anicheckのDockerfile及びdocker-compose.yaml
