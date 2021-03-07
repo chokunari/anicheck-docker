@@ -24,6 +24,7 @@ RUN apk add --no-cache nodejs \
     express-jwt \
     dotenv \
     axios \
+    jsdom \
     jwks-rsa && \
     #express-generatorはグローバルにインストールする必要あり。
     npm install -g express-generator
